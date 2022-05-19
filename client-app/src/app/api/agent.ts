@@ -1,7 +1,4 @@
 import axios, { AxiosResponse } from 'axios';
-import { resolve } from 'dns';
-import { request } from 'http';
-import { UrlWithStringQuery } from 'url';
 import { Activity } from '../models/activity';
 
 const sleep = (delay: number) => {
